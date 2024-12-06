@@ -9,7 +9,7 @@ public class StudentDto {
 	
 	public StudentDto() {
 		super();
-		// TODO Auto-generated constructor stub
+		// 
 	}
 
 	public StudentDto(int hakbun, String name, int grade, String address) {

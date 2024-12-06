@@ -17,7 +17,7 @@
 	<%
 	request.setCharacterEncoding("utf-8");	
 			
-			String sql = "SELECT * FROM student"; // 모든 학생레코드 가져오기
+			String sql = "SELECT * FROM student"; // 모든 학생레코드 가져오기  
 			
 			String driverName = "com.mysql.jdbc.Driver"; //MySQL JDBC 드라이버 이름
 			String url = "jdbc:mysql://localhost:3306/abc_school"; //MySQL이 설치된 주소와 연결할 DB(스키마) 이름
