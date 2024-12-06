@@ -1,18 +1,18 @@
 package com.limscompany.dto;
 
-public class studentDto {
+public class StudentDto {
 	
 	private int hakbun;
 	private String name;
 	private int grade;
 	private String address;
 	
-	public studentDto() {
+	public StudentDto() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public studentDto(int hakbun, String name, int grade, String address) {
+	public StudentDto(int hakbun, String name, int grade, String address) {
 		super();
 		this.hakbun = hakbun;
 		this.name = name;
